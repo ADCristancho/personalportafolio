@@ -1,0 +1,25 @@
+{
+    "profile": {
+        "rol": "Desarrollador Front-end",
+        "description": "Soy un joven emprendedor con mucho gusto por la tecnologia, y con una firme convicción de que con ella podremos hacer grandes cambios en la sociedad, volvernos cada vez mejor y disfrutar de lo que nos brinda esta ciencia,<br/>será un gusto trabajar siempre de la mano con otros amantes de la evolución y el deseo de crecer"
+    },
+    "experience": {
+        "first-job-title": "Desarrollador Front-end",
+        "first-job-dates": "Enero 2022 - Enero 2023",
+        "first-job-description": "He desarrollado varios projectos en el poco tiempo que llevo como desarrollador; esto de forma grupal e individual"
+    },
+    "hobbies": {
+        "main-hobbie": "me encantan los videojuegos de disparos, de aventura y de lógica; desde niño me han apasionado la aventura y los mundos a los que estos video juegos te trasladan"
+    },
+    "projects": {
+        "first-project": "El proyecto de rick and morty fúe un proyecto muy interesante de desarrollar; me gustan mucho las caricaturas, por lo que desarrollar un proyecto de progrmación basado en una de ellas me gustó mucho y más el hecho de poder darle un diseño interesante, aún siendo de mis primeros proyectos siento que tuvo un desarrollo muy bueno. para muchos desarrolladores los primeros proyectos son los más importantes y puedo confirmarlo. ",
+        "first-project-indicator": "Mira el resultado aquí",
+        "second-project": "Un proyecto basado en el popular anime Pokemon, uno de los animes más vistos y conocidos del mundo, este proyecto fué desarrollado de forma divertida, dandole un diseño que aunque sencillo, es interesante de ver; los colores y el sentirte inmerso en el mundo de estos pequeños seres, es algo que te hace sentir satisfecho, siento que una gran parte del desarrollo de una pagina es diseño y procuré que quedara muy bien.",
+        "second-project-indicator": "Mira el resultado aquí",
+        "third-project":"El desarrollo de una pagina para una tienda online fué una practica fundamental para empezar en este mundo, fielmente puedo decir que este fué mi primer proyecto de programación, y apartir de aquí empezó esta aventura.",
+        "third-project-indicator": "Mira el resultado aquí",
+        "last-project":"Crear una pagina de una clima, fué divertido para ser sincero, fué uno de los desarrollos web en los que más sentí pasión por esto, ver como algo que estaba creando desde mi computador podía percibir datos externos como el clima de mi sector, fué algo cautivante.",
+        "last-project-indicator": "Mira el resultado aquí"
+    }
+    
+}

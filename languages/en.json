@@ -1,0 +1,24 @@
+{
+    "profile": {
+        "rol": "Front-end developer",
+        "description": "I am a young entrepreneur with a great taste for technology, and with a firm conviction that with it we can make great changes in society, become better and better and enjoy what this science offers us, <br/>it will be a pleasure to work always hand in hand with other lovers of evolution and the desire to grow"
+    },
+    "experience": {
+        "first-job-title": "Back-end developer",
+        "first-job-dates": "January 1995 - January 2000",
+        "first-job-description": "I have developed several projects in the short time I have been a developer; this in a group and individually"
+    },
+    "hobbies": {
+        "main-hobbie": "I love shooting, adventure and logic video games; Since I was a child I have been passionate about adventure and the worlds to which these video games take you."
+    },
+    "projects": {
+        "first-project": "The Rick and Morty project was a very interesting project to develop; I really like cartoons, so I really liked developing a programming project based on one of them, especially the fact that I could give it an interesting design. Even though it was one of my first projects, I feel that it had a very good development. For many developers the first projects are the most important and I can confirm this. ",
+        "first-project-indicator": "See the result here",
+        "second-project": "A project based on the popular anime Pokemon, one of the most viewed and well-known animes in the world, this project was developed in a fun way, giving it a design that, although simple, is interesting to see; The colors and feeling immersed in the world of these little beings is something that makes you feel satisfied. I feel that a large part of the development of a page is design and I tried to make it look very good. ",
+        "second-project-indicator": "See the result here",
+        "third-project": "The development of a page for an online store was a fundamental practice to start in this world, I can faithfully say that this was my first programming project, and from here this adventure began. ",
+        "third-project-indicator": "See the result here",
+        "last-project":"Creating a weather page was fun to be honest, it was one of the web developments in which I felt most passionate about it, seeing how something I was creating from my computer could perceive external data such as the weather in my sector, it was something captivating ",
+        "last-project-indicator": "See the result here"
+    }
+}

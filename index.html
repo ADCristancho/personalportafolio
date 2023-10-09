@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Portfolio</title>
+  </head>
+  <body class="dark">
+    <header class="header" >
+      <div class="switches">
+        <div id="toggle-theme" class="toggle-theme">
+          <img id="toggle-icon" src="assets/icons/moon.svg" 
+          alt="icon theme"
+          class="toggle-theme__icon" 
+          />
+          <p id="toggle-text" class="toggle-theme__text">Dark Mode</p>
+        </div>
+      </div>
+      <div id="flags" class="flags">
+        <div class="flags__item" data-language="es">
+          <img src="./assets/icons/spain.svg" alt="" class="flags__img">
+        </div>
+        <div class="flags__item" data-language="en">
+          <img src="./assets/icons/USA.svg" alt="" class="flags__img">
+        </div>
+      </div>
+      <div id="toggle-colors" class="colors">
+        <div data-color="hsl(214, 56%, 40%)" class="colors__item 
+        colors__item--blue"></div>
+        
+        <div data-color="hsl(129, 61%, 37%)" class="colors__item 
+        colors__item--green"></div>
+        
+        <div data-color="hsl(303, 60%, 42%)" class="colors__item 
+        colors__item--purple"></div>
+        
+        <div data-color="hsl(23, 60%, 40%)" class="colors__item 
+        colors__item--orange"></div>
+      </div>
+    </header>
+    <main class="main">
+      <section class="column column--left">
+        <!-- PROFILE CARD -->
+        <article class="card card--profile">
+          <div class="card__image-container">
+            <img src="./assets/images/profile.jpg" 
+            alt="">          
+          </div>
+          <div class="card__header">
+            <h2 class="card__title">ADCristancho</h2>
+            <p class="card__subtitle" data-section="profile" 
+            data-value="rol">front-end developer
+            </p>
+          </div>
+          <div class="card__body">
+            <div class="card__link">
+              <i class="fas fa-envelope icon"></i> 
+              <a href="mailto:ali3184533013@gmail.com">
+                ali3184533013@gmail.com
+              </a>
+            </div>
+            <div class="card__link">
+              <i class="fas fa-phone-alt icon"></i>
+              <a href="tel:3228631816">
+                +57-3184533013 </a>
+            </div>
+            <p class="card__text" data-section="profile"
+            data-value="description">
+              Soy un joven emprendedor con mucho gusto por la tecnologia, 
+              y con una firme convicción de que con ella podremos hacer grandes cambios en la sociedad, 
+              volvernos cada vez mejor y disfrutar de lo que nos brinda esta ciencia, será un gusto trabajar 
+              siempre de la mano con otros amantes de la evolución y el deseo de crecer 
+            </p>
+          </div>
+        </article>
+        <article class="card card--experience">
+          <h2 class="card__title">Experiences</h2>
+          <div class="experience">
+            <img src="assets/images/logo.png" alt="logo" class="experience__image">
+            <div class="experience__info">
+              <p class="experience__time">
+                  Julio 2023 - current
+              </p>
+              <h3 class="experience__job">front-end web developer</h3>
+              <p class="experience__description" data-section="experience" 
+              data-value="first-job-description">He desarrollado varios projectos en el poco tiempo que llevo como desarrollador;<br> esto de forma grupal e individual</p>
+            </div>
+          </div>
+        </article>
+        <article class="card card__hobbies">
+          <h2 class="card__title"></h2>
+          <div class="card__image-container">
+          <img src="https://www.gannett-cdn.com/-mm-/a094bd247b4edba1a6805db7d5b4658f51c44c12/c=0-28-540-334/local/-/media/USATODAY/popcandy/2014/07/15/1405444656000-videogames.jpg?width=3200&height=1680&fit=crop"
+          alt="boy in bike">
+          </div>
+          <h3 class="hobbie__title">Videogames</h3>
+          <p class="card__text" data-section="hobbies"
+          data-value="main-hobbie">me encantan los videojuegos de disparos, de aventura y de lógica; 
+          desde niño me han apasionado la aventura y los mundos a los que estos video juegos te trasladan</p>
+        </article>
+      </section>
+      <section class="column column--right">
+        <article class="card">
+          <h2 class="card__title no-margin">Frontend</h2>
+          <small>Meses de experiencia</small>
+          <div class="skills"></div>
+          <div class="skills__header">
+            <span class="skills__start-level">0</span>
+            <span class="skills__start-level">10</span>
+          </div>
+          <div class="skills">
+            <div class="skills__item">
+              <p class="skills__tech">HTML</p>
+              <div class="skills__bar skills__bar--5"></div>
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech">CSS</p>
+              <div class="skills__bar skills__bar--4"></div>
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech">JAVASCRIPT</p>
+              <div class="skills__bar skills__bar--4"></div>
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech">REACT</p>
+              <div class="skills__bar skills__bar--3"></div>
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech">C #</p>
+              <div class="skills__bar skills__bar--1"></div>
+            </div>
+          </div>
+        </article>
+        <article class="card">
+          <h2 class="card__title">Backend</h2>
+          <div class="skills"></div>
+          <div class="skills__header">
+            <span class="skills__start-level">0</span>
+            <span class="skills__start-level">10</span>
+          </div>
+          <div class="skills">
+            <div class="skills__item">
+              <p class="skills__tech">NODE JS</p>
+              <div class="skills__bar skills__bar--2"></div>
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech">BUN</p>
+              <div class="skills__bar skills__bar--1"></div>
+            </div>
+        </article>
+        <article class="card">
+          <h2 class="card__title">Multimedia</h2>
+          <div class="skills"></div>
+          <div class="skills__header">
+            <span class="skills__start-level">0</span>
+            <span class="skills__start-level">10</span>
+          </div>
+          <div class="skills">
+            <div class="skills__item">
+              <p class="skills__tech">Filmora</p>
+              <div class="skills__bar skills__bar--5"></div>
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech">Canva</p>
+              <div class="skills__bar skills__bar--6"></div>
+            </div>
+        </article>
+        <article class="card card--project">
+          <div class="card__image-container">
+            <img src="https://imgix.bustle.com/uploads/image/2021/8/13/c4221c01-65cf-429b-84bc-dc8f72cd8f98-rick-morty-season-5-episode-8-3-1628498167.jpeg?w=768&h=890&fit=crop&crop=focalpoint&auto=format%2Ccompress&q=50&fp-x=0.3067&fp-y=0.3578&dpr=2" 
+            alt="Landing Page" 
+            class="card__image">
+          </div>
+          <div class="project">
+            <div class="project__tags">
+              <span class="project__tag">#HTML</span>
+              <span class="project__tag">#CSS</span>
+              <span class="project__tag">#JAVASCRIPT</span>
+              <span class="project__tag">#REACT</span>
+            </div>
+            <h2 class="card__title">Rick And Morty Page</h2>
+            <p class="card__text"></p>
+            <p class="card__text" 
+            data-section="projects"
+            data-value="first-project">El proyecto de rick and morty fúe un proyecto muy interesante de desarrollar; me gustan mucho las caricaturas, por lo que desarrollar un proyecto de progrmación basado en una de ellas me gustó mucho y más el hecho de poder darle un diseño interesante,
+              <br> aún siendo de mis primeros proyectos siento que tuvo un desarrollo muy bueno <br><br>para muchos desarrolladores los primeros proyectos son los más importantes y puedo confirmarlo <br><br></p>
+            <p class="card__text" 
+            data-section="projects"
+            data-value="first-project-indicator">Mira el resultado aquí</p>
+              <div class="buttons">
+               <button><a href="https://rickandmorty26.vercel.app/" target="_blank" class="button button--primary">Demo</a></button> 
+              </div>
+          </div>
+        </article>
+        <article class="card card--project">
+          <div class="card__image-container">
+            <img src="https://www.gratistodo.com/wp-content/uploads/2017/08/Pokemon-Phone-Wallpapers-10.jpg" alt="Landing Page" 
+            class="card__image">
+          </div>
+          <div class="project">
+            <div class="project__tags">
+              <span class="project__tag">#HTML</span>
+              <span class="project__tag">#CSS</span>
+              <span class="project__tag">#JAVASCRIPT</span>
+              <span class="project__tag">#REACT</span>
+            </div>
+            <h2 class="card__title">Pokemon Page</h2>
+            <p class="card__text"
+            data-section="projects"
+            data-value="second-project">Un proyecto basado en el popular anime Pokemon, uno de los animes más vistos y <br> conocidos del mundo, este proyecto fué desarrollado de forma divertida, <br> dandole un diseño que aunque sencillo, es interesante de ver; <br> los colores y el sentirte inmerso en el mundo de estos pequeños seres, es algo que te hace sentir satisfecho,<br> siento que una gran parte del desarrollo de una pagina es diseño y procuré que quedara muy bien.<br><br><br><br><br></p>
+            <p class="card__text"
+            data-section="projects"
+            data-value="second-project-indicator">Mira el resultado aquí</p>
+            <div class="buttons">
+              <button><a href="https://pokedexapp-chi.vercel.app/" target="_blank" class="button button--primary">Demo</a></button> 
+              </div>
+          </div>
+        </article>
+        <article class="card card--project">
+          <div class="card__image-container">
+            <img src="https://static.vecteezy.com/system/resources/previews/004/057/383/large_2x/saleswoman-flat-color-illustration-fashion-store-with-racks-clothing-boutique-female-customer-in-apparel-shop-woman-choosing-clothes-isolated-cartoon-character-on-white-background-vector.jpg" alt="Landing Page" 
+            class="card__image">
+          </div>
+          <div class="project">
+            <div class="project__tags">
+              <span class="project__tag">#HTML</span>
+              <span class="project__tag">#CSS</span>
+              <span class="project__tag">#JAVASCRIPT</span>
+              <span class="project__tag">#REACT</span>
+            </div>
+            <h2 class="card__title">clothing store</h2>
+            <p class="card__text" data-section="projects"
+            data-value="third-project">El desarrollo de una pagina para una tienda online fué una practica fundamental para empezar en este mundo, <br> fielmente puedo decir que este fué mi primer proyecto de programación, y apartir de aquí empezó esta aventura. <br><br><br><br></p>
+            <p class="card__text"
+            data-section="projects"
+            data-value="third-project-indicator">Mira el resultado aquí</p>  
+            <div class="buttons">
+              <button><a href="https://e-commerceali.vercel.app/" target="_blank" class="button button--primary">Demo</a></button>  
+              </div>
+          </div>
+        </article>
+        <article class="card card--project">
+          <div class="card__image-container">
+            <img src="http://informacionde.info/wp-content/uploads/2016/03/clima1.jpg" alt="Landing Page" 
+            class="card__image">
+          </div>
+          <div class="project">
+            <div class="project__tags">
+              <span class="project__tag">#HTML</span>
+              <span class="project__tag">#CSS</span>
+              <span class="project__tag">#JAVASCRIPT</span>
+              <span class="project__tag">#REACT</span>
+            </div>
+            <h2 class="card__title">App Climate Page</h2>
+            <p class="card__text" data-section="projects"
+            data-value="last-project">Crear una pagina de una clima, fué divertido para ser sincero, fué uno de los desarrollos web en los que más sentí pasión por esto; <br> ver como algo que estaba creando desde mi computador podía percibir datos externos como el clima de mi sector, fué algo cautivante. <br><br><br><br></p>
+            <p class="card__text"
+            data-section="projects"
+            data-value="last-project-indicator">Mira el resultado aquí</p>  
+            <div class="buttons">
+              <button><a href="https://appclimate.vercel.app/" target="_blank" class="button button--primary">Demo</a></button>  
+              </div>
+          </div>
+        </article>
+      </section>
+    </main>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
