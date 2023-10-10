@@ -13,12 +13,12 @@
     },
     "projects": {
         "first-project": "The Rick and Morty project was a very interesting project to develop; I really like cartoons, so I really liked developing a programming project based on one of them, especially the fact that I could give it an interesting design. Even though it was one of my first projects, I feel that it had a very good development. For many developers the first projects are the most important and I can confirm this. ",
-        "first-project-indicator": "See the result here",
+        
         "second-project": "A project based on the popular anime Pokemon, one of the most viewed and well-known animes in the world, this project was developed in a fun way, giving it a design that, although simple, is interesting to see; The colors and feeling immersed in the world of these little beings is something that makes you feel satisfied. I feel that a large part of the development of a page is design and I tried to make it look very good. ",
-        "second-project-indicator": "See the result here",
+        
         "third-project": "The development of a page for an online store was a fundamental practice to start in this world, I can faithfully say that this was my first programming project, and from here this adventure began. ",
-        "third-project-indicator": "See the result here",
-        "last-project":"Creating a weather page was fun to be honest, it was one of the web developments in which I felt most passionate about it, seeing how something I was creating from my computer could perceive external data such as the weather in my sector, it was something captivating ",
-        "last-project-indicator": "See the result here"
+        
+        "last-project":"Creating a weather page was fun to be honest, it was one of the web developments in which I felt most passionate about it, seeing how something I was creating from my computer could perceive external data such as the weather in my sector, it was something captivating "
+    
     }
 }

@@ -13,13 +13,12 @@
     },
     "projects": {
         "first-project": "El proyecto de rick and morty fúe un proyecto muy interesante de desarrollar; me gustan mucho las caricaturas, por lo que desarrollar un proyecto de progrmación basado en una de ellas me gustó mucho y más el hecho de poder darle un diseño interesante, aún siendo de mis primeros proyectos siento que tuvo un desarrollo muy bueno. para muchos desarrolladores los primeros proyectos son los más importantes y puedo confirmarlo. ",
-        "first-project-indicator": "Mira el resultado aquí",
+    
         "second-project": "Un proyecto basado en el popular anime Pokemon, uno de los animes más vistos y conocidos del mundo, este proyecto fué desarrollado de forma divertida, dandole un diseño que aunque sencillo, es interesante de ver; los colores y el sentirte inmerso en el mundo de estos pequeños seres, es algo que te hace sentir satisfecho, siento que una gran parte del desarrollo de una pagina es diseño y procuré que quedara muy bien.",
-        "second-project-indicator": "Mira el resultado aquí",
+        
         "third-project":"El desarrollo de una pagina para una tienda online fué una practica fundamental para empezar en este mundo, fielmente puedo decir que este fué mi primer proyecto de programación, y apartir de aquí empezó esta aventura.",
-        "third-project-indicator": "Mira el resultado aquí",
-        "last-project":"Crear una pagina de una clima, fué divertido para ser sincero, fué uno de los desarrollos web en los que más sentí pasión por esto, ver como algo que estaba creando desde mi computador podía percibir datos externos como el clima de mi sector, fué algo cautivante.",
-        "last-project-indicator": "Mira el resultado aquí"
+    
+        "last-project":"Crear una pagina de una clima, fué divertido para ser sincero, fué uno de los desarrollos web en los que más sentí pasión por esto, ver como algo que estaba creando desde mi computador podía percibir datos externos como el clima de mi sector, fué algo cautivante."
     }
     
 }
